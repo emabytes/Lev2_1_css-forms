@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+    background: rgb(241, 241, 241);
+    padding: 10px 0;
+    border-radius: 3px;
+}
+
+h1 {
+    padding: 20px 0;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(99, 197, 197);
+    color: white;
+    font-size: 1.5em;
+}
+
+input, label, textarea {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    padding-left: 10px;
+    outline: none;
+}
+
+::placeholder {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+}
+
+#btn {
+    background-color: rgb(99, 197, 197);
+    color: white;
+    padding: 10px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+#btn:hover {
+    background-color: rgb(83, 158, 158);
+}
